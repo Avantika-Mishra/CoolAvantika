@@ -1,0 +1,118 @@
+<!--Assignment 1: -> Create a form (College admission form). -> The form should be functional, that means submit and reset should work -> It should also have proper validation.-->
+
+
+<html>
+    <head>
+        <title>Admission Form</title>
+    </head>
+    <body>
+        <h3>Application Form</h3>
+        <h1>Dr. Virendra Swarup Educational Foundation</h1>
+        <form action="abc.html">
+        <label for="name">Name of the Student(As per 10th/12th certificates)*:</label><br>
+<input type="text" id="name" placeholder="Enter Student Name"><br><br>
+<label for="name">Father's Name (As per 10th/12th certificates)*:</label><br>
+<input type="text" id="name" placeholder="Enter Father's Name" ><br><br>
+<label for="name">Mother's Name(As per 10th/12th certificates)*:</label><br>
+<input type="text" id="name" placeholder="Enter Mother's Name" ><br><br>
+<label for="Permanent Address">Permanent Address:*</Address>:</label><br>
+<input type="text" size="90"><br><br>
+<label for="Mobile no.">Mobile no.*:</label><br>
+<input type="Number" placeholder="Mobile no."><br><br>
+<label for="Aadhar no.">Aadhar no.*:</label><br>
+<input type="Number"><br><br>
+<label for="D.O.B.">D.O.B*:</label><br>
+<input type="date" max="2022-12-31"><br><br>
+
+<fieldset data-role="control group">
+<label for="Gender">Choose your Gender:</label><br>
+<label for="Male">Male:</label>
+<input type="radio" name="gender" id="Male" value="male"><br>
+<label for="Female">Female:</label>
+<input type="radio" name="gender" id="Female" value="Female" checked><br><br>
+</fieldset>
+<label for="Religion">Religion:</label><br>
+<input type="text">
+<label for="Email">Email*:</label>
+<input type="Email" placeholder="Please enter Email" equired pattern=".+@gmail\.com" value="abcd@gmail.com" /><br><br>
+<label for="Further Details">Further Details::</label>
+<textarea name="message" rows="4" cols="16" placeholder="Enter your message"  pattern=".+@gmail\.com" maxlength="10" minlength="5" style="resize: none;"></textarea><br>
+
+<h3>Educational Qualification</h3>
+<table border="1">
+<tr>
+    <th>Qualification</th>
+    <th>Subject/Course</th>
+    <th>Institute Name</th>
+    <th>Board/University</th>
+    <th>Year of Passing</th>
+    <th>Marks Scored/CGPA</th>
+    <th>% of Marks</th>
+</tr>
+<tr>
+    <th>10th level</th>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <th>10+2 level</th>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <th>Graduation</th>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+</table><br>
+
+<h3>Parent/Guardian Details</h3>
+<table border="1">
+<tr>
+<th>Family Member</th>
+<th>Qualification</th>
+<th>Occupation</th>
+<th>Annual Income</th>
+<th>Mobile No.</th>
+</tr>
+<tr>
+    <th>Father</th>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <th>Mother</th>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <th>Other/Specify</th>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+</table><br>
+*Mandatory Fields<br>
+<input type="checkbox" name="tnc" value="1"> I accept the terms and conditions.<br><br>
+<button>Submit</button>
+<input type="reset" />
+</form>
+    </body>
+</html>
