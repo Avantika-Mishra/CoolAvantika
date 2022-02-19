@@ -1,0 +1,95 @@
+h2{
+    text-align: center;
+    color: blueviolet;
+    font-size: 250%; 
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+h3{
+    text-align: center;
+    color: salmon;
+    font-size: 150%; 
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+p{
+    text-align: center;
+    color: aqua;
+}
+
+table{
+    margin-left: 500px;
+    text-align: center;
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+th:nth-child(n) {
+    color: white;
+}
+
+
+tr:nth-child(1) {
+    color: red;
+}
+
+
+tr:nth-child(2) {
+    color: green;
+}
+
+tr:nth-child(3) {
+    color: blue;
+}
+
+tr:nth-child(4) {
+    color: red;
+}
+
+
+tr:nth-child(5) {
+    color: green;
+}
+
+tr:nth-child(6) {
+    color: blue;
+}
+
+tr:nth-child(7) {
+    color: red;
+}
+
+
+tr:nth-child(8) {
+    color: green;
+}
+
+tr:nth-child(9) {
+    color: blue;
+}
+
+tr:nth-child(10) {
+    color: red;
+}
+
+
+tr:nth-child(11) {
+    color: green;
+}
+
+tr:nth-child(12) {
+    color: blue;
+}
+
+tr:nth-child(13) {
+    color: red;
+}
+
+
+tr:nth-child(14) {
+    color: green;
+}
+

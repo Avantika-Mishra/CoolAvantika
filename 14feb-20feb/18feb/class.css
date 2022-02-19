@@ -1,0 +1,74 @@
+h2{
+    color: blueviolet;
+}
+
+h3{
+    color: salmon;
+}
+
+th:nth-child(n) {
+    color: black;
+}
+
+
+tr:nth-child(1) {
+    color: lightgray;
+}
+
+
+tr:nth-child(2) {
+    color: gray;
+}
+
+tr:nth-child(3) {
+    color: darkgray;
+}
+
+tr:nth-child(4) {
+    color: lightgray;
+}
+
+
+tr:nth-child(5) {
+    color: gray;
+}
+
+tr:nth-child(6) {
+    color: darkgray;
+}
+
+tr:nth-child(7) {
+    color: lightgray;
+}
+
+
+tr:nth-child(8) {
+    color: gray;
+}
+
+tr:nth-child(9) {
+    color: darkgray;
+}
+
+tr:nth-child(10) {
+    color: lightgray;
+}
+
+
+tr:nth-child(11) {
+    color: gray;
+}
+
+tr:nth-child(12) {
+    color: darkgray;
+}
+
+tr:nth-child(13) {
+    color: lightgray;
+}
+
+
+tr:nth-child(14) {
+    color: gray;
+}
+
