@@ -5,4 +5,8 @@ Assignment 2: -> Create a table looking similar to the Wiki secion Class schedul
 Hosted Link:--
 
 1.)   https://avantika-mishra.github.io/CoolAvantika/9feb/jan.html
+
+
+
+
 2.)   https://avantika-mishra.github.io/CoolAvantika/9feb/index.html
